@@ -1,0 +1,23 @@
+programa
+{
+    funcao inicio()
+      {
+        real numeroUm, numeroDois, soma, subt, mult
+        
+        //Informe os números
+        escreva("Digite o primeiro número: ")
+        leia(numeroUm)
+        escreva("Digite o segundo número: ")
+        leia(numeroDois)
+
+        //Realizar os cálculos
+        soma = numeroUm+numeroDois
+        subt = numeroUm-numeroDois
+        mult = numeroUm*numeroDois
+
+        //Ler os cálculos
+        escreva("\nSoma desses dois números: ", soma ,"\n")
+        escreva("Subtração desses dois números: ", subt ,"\n")
+        escreva("Multiplicação desses dois números: ", mult)
+      }
+}
